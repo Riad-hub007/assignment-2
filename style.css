@@ -1,0 +1,689 @@
+*{
+    margin: 0px ;
+    /* border: 1px solid red; */
+}
+
+
+
+/* font-style */
+
+
+.noto-serif-1 {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.inter-2 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
+
+
+
+
+
+
+/* display-flex */
+.display-flex{
+    display: flex;
+}
+
+
+/* header 1st part */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    gap: 570px;
+    margin-bottom: 120px;
+
+}
+.img-1{
+    width: 100px;
+    height: 70px;
+    margin-left: 80px;
+}
+.ul-design{
+    display: flex;
+    list-style: none;
+    
+    padding: 15px 40px 15px 40px;
+    gap: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    
+}
+.Home{
+    color: #252432;
+
+}
+.shop{
+    color: #8987A1;
+}
+.cart{
+    color: #000000;
+    position: relative;
+    right: 32px;
+    
+    
+}
+.cart2{
+    width: 20px;
+    height: 25px;
+
+}
+/* banner-part */
+.banner{
+    display: flex;
+    
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+.ALWAYS{
+    font-weight: bold;
+    font-size: 65px;
+    color: rgba(0, 0, 0, 1);
+    display: flex;
+    gap: 25px;
+}
+.Fresh{
+    color: #E95A08;
+    font-weight: bold;
+    font-size: 65px;
+
+
+}
+.Indulge{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+}
+
+
+/* main-part */
+
+/* our-plants */
+.Our-plants{
+    color: #E95A08;
+    font-size: 50px;
+    font-weight: bold;
+}
+.Plants{
+    color: #000000;
+    font-size: 50px;
+    font-weight: bold;
+}
+.Indulge-2{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    font-weight: 400px;
+
+}
+.our-plant-head{
+    text-align: center;
+    margin-top: 120px;
+    font-size: 22px;
+    font-weight: 400px;
+    
+}
+
+/* card-design */
+.Lily{
+    font-weight: 500px;
+    font-size: 22px; 
+    color: #111111;
+    text-align: center;
+    
+    
+}
+.word{
+    font-size: 22px;
+    font-weight: bold;
+    color: #111111;
+    text-align: center;
+    
+
+}
+.add-to{
+    background-color: #E95A08;
+    width: 270px;
+    height: 50px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600px;
+    border-color: #E95A08;
+}
+.card-design{
+    border: 1px solid white;
+    
+}
+.Card-head{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 50px 150px 80px 95px;
+    gap: 20px;
+}
+/*  Plants Lover Section*/
+.img-design{
+    /* border: 1px solid red; */
+    display: flex;
+}
+.img-4{
+    width: 540px;
+    height: 597px;
+
+}
+.img-5{
+    width: 286px;
+    height: 286px;
+    position: relative;
+    left: -170px;
+    top: -100px;
+
+}
+.Flower-lover{
+    display: flex;
+    
+    
+    
+}
+.full-design{
+    max-width: 1140px;
+    /* border: 1px solid green; */
+    margin-top: 210px;
+    margin: 210px 150px 130px 150px;
+
+}
+.Flower-design{
+    width: 600px;
+    height: 310px;
+    /* border: 1px solid yellow; */
+    position: relative;
+    left: -235px;
+    bottom: -140px;
+    
+
+    
+    
+
+}
+
+/* next */
+.plants-2{
+    color: #000000;
+    font-size: 50px;
+    font-weight: bold;
+}
+.Indulge-3{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    font-weight: 400px;
+}
+.list-class{
+    gap: 10px;
+    width: 400px;
+    
+
+}
+/*  Latest  Deals -section*/
+
+.Latest-Deals{
+    text-align: center;
+    margin-bottom: 120px;
+}
+.Latest{
+    color: #E95A08;
+    font-size: 50px;
+    font-weight: bold;
+}
+.Deals{
+    color: #000000;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+/* banner */
+.Bloom-Plant-1{
+    width: 300px;
+    height: 72px;
+    background-image: url(B12A02-Responsive-Flowers/assets/deal-bloom.png);
+    text-align: center;
+    padding: 65px 45px 60px 2px;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+    
+    margin-bottom: 25px;
+    
+}
+.off{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Shop-Now{
+    color: #FFFFFF;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 600px;
+}
+.Ana-plant{
+    width: 300px;
+    height: 72px;
+    background-image: url(B12A02-Responsive-Flowers/assets/deal-ana.png);
+  
+    text-align: center;
+    padding: 65px 45px 60px 2px;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+
+}
+
+.Zabo-plant{
+    width: 420px;
+    height: 85px;
+    background-image: url(B12A02-Responsive-Flowers/assets/deal-zabo.png);
+    text-align: center;
+    border-radius: 22px;
+    padding: 170px 117px 170px 147px;
+    background-repeat: no-repeat;
+}
+.Plant-design{
+    display: flex;
+    gap: 25px;
+    margin: 120px 150px 120px 150px;
+}
+.Zabo{
+    color: #FFFFFF;
+    font-size: 35px;
+    font-weight: bold;
+}
+.shop-2{
+    font-weight: 600px;
+    font-size: 28px;
+    text-decoration: underline;
+    color: #FFFFFF;
+
+}
+
+/* last-section */
+.colorful-Bunch{
+    background-image: url(B12A02-Responsive-Flowers/assets/news-letter-bg.png);
+    width: 100%;
+    height: 530px;
+    text-align: center;
+    
+}
+.Join-the{
+    font-weight: bold;
+    font-size: 50px;
+    color: #FFFFFF;
+    position: relative;
+    bottom: -220px;
+}
+.email{
+    width: 640px;
+    height: 50px;
+    position: relative;
+    bottom: -240px;
+}
+.Subscribe{
+    width: 200px;
+    background-color: #E95A08;
+    color: #FFFFFF;
+    height: 55px;
+    padding: 15px;
+    border-color: #E95A08;
+    position: relative;
+    bottom: -240px;
+}
+
+/* footer-style*/
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1440px;
+    height: 350px;
+    
+    align-items: center;
+}
+.list-2{
+    list-style: none;
+    gap: 10px;
+    color: rgba(107, 114, 128, 1);
+    
+
+}
+.img-6{
+    display: flex;
+    gap: 24px;
+    grid-template-rows: repeat(1,1fr);
+    position: relative;
+    top: -65px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .Home,
+    .shop
+         {
+        display: none;
+    }
+    .navbar{
+        gap: 50px;
+        align-items: center;
+        margin-bottom: 30px;
+        
+        
+    }
+    .cart2{
+        position: relative;
+        left: 59px;
+
+    }
+    .cart{
+        position: relative;
+        left: 25px;
+    }
+    .img-1{
+        width: 60px;
+        height: 35px;
+        margin-left: 10px;
+    }
+    /* banner-part */
+    .banner{
+        flex-direction: column-reverse;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .img-2{
+        width: 395px;
+    }
+    .ALWAYS, .Fresh{
+        font-size: 24px;
+        
+    }
+    .Indulge{
+        font-size: 14px;
+    }
+    .always-2{
+        margin-top: 28px;
+        padding: 10px;
+    }
+    /* main-part */
+    /* Our-plant */
+    .Our-plants, .Plants{
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+    .Indulge-2{
+        font-size: 14px;
+        
+    }
+    .our-plant-head{
+        margin-bottom: 28px;
+        margin-top: 65px;
+        padding: 30px;
+    }
+
+    /* card-design */
+    .Card-head{
+        grid-template-columns: repeat(2,1fr);
+         
+         margin: 28px 14px 28px 20px;
+         
+    }
+    .Lily, .word{
+        font-size: 16px;
+        
+    }
+    .add-to{
+        font-size: 16px;
+        width: 170px;
+        height: 50px;
+    }
+    .img-3{
+        width: 170px;
+        height: 195px;
+    }
+
+    /*  Plants Lover Section*/
+    .img-5{
+        display: none;
+    }
+    .img-4{
+        width: 360px;
+        height: 395px;
+        /* position: relative; */
+        left: -240px;
+        margin-bottom: 20px;
+    }
+    .plants-2{
+        font-size: 24px;
+    }
+    .Indulge-3{
+        font-size: 14px;
+    }
+    .full-design{
+        width: calc(100% - 20px);
+        margin: 41px 18px 18px 18px;
+    }
+    .Flower-lover{
+        flex-direction: column;
+    }
+    .list-class{
+        width: 260px;
+    }
+    .Flower-design{
+        width: 360px;
+        height: 335px;
+        position: relative;
+        left: 15px;
+        bottom: 0.5px;
+        margin-bottom: 140px;
+    }
+
+    /* Latest Deals */
+    .Plant-design{
+        flex-direction: column;
+        margin: 40px 15px 15px 25px;
+        position: relative;
+        top: -55px;
+
+    }
+    .Latest, .Deals{
+        font-size: 24px;
+    }
+    .Zabo-plant{
+        width: 350px;
+        height: 190px;
+        
+        text-align: center;
+        padding: 4px;
+    }
+    .Zabo, .off{
+        font-size: 20px;
+        
+
+    }
+    .shop-2, .Shop-Now{
+        font-size: 16px;
+        
+
+    }
+    .Zabo{
+        position: relative;
+        bottom: -70px;
+    }
+    .shop-2{
+        position: relative;
+        bottom: -75px;
+    }
+
+    /* last-section */
+    .Join-the{
+        font-size: 20px;
+        
+    }
+    .email{
+        width: 215px;
+       
+
+       
+    }
+    .Subscribe{
+        width: 100px;
+        
+    }
+    .colorful-Bunch{
+
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+        top: -210px;
+        
+   
+    }
+    /* footer-style */
+    .footer{
+        flex-direction: column;
+        position: relative;
+        top: -380px;
+        text-align: left;
+        left: -82px;
+        font-size: 15px;
+        
+        height: 230px;
+        
+    }
+    .list-2{
+        margin-top: 40px;
+        position: relative;
+        left: -22px;
+        top: -32px;
+    }
+    .img-6{
+        margin-top: 55px;
+
+        margin-left: 30px;
+    }
+    .list-4{
+        position: relative;
+        left: -40px;
+    }
+    .logo-2{
+        position: relative;
+        left: 20px;
+
+    }
+    .Latest-Deals{
+        padding: 20px;
+    }
+
+
+
+
+
+    *{
+        margin: 0px;
+        /* border: 1px solid red; */
+    }
+
+
+
+
+    
+
+    }
+
+
+    @media screen and (min-width:576px) and (max-width:992px) {
+        *{
+            /* border: 1px solid red; */
+            margin: 0px;
+        }
+
+
+        .navbar{
+            gap: 50px;
+        }
+
+        .banner{
+            margin-left: 1px;
+            margin-right: 1px;
+            padding: 20px;
+        }
+        .ALWAYS{
+            font-size: 35px;
+        }
+        .Fresh{
+            font-size: 35px;
+        }
+        .Card-head{
+            grid-template-columns: repeat(2,1fr);
+            
+        }
+        .full-design{
+            margin: 10px ;
+        }
+        .plants-2{
+            font-size: 30px;
+        }
+        .img-4{
+            width: 95%;
+            height: 95%;
+        }
+        .Flower-design{
+            position: relative;
+            left: 6px;
+
+        }
+
+        
+        .Plant-design{
+            margin-left: 70px;
+        }
+        
+
+
+
+
+
+
+
+        
+    }
